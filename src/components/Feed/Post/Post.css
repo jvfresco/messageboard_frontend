@@ -1,0 +1,32 @@
+.post {
+  margin: 1rem 0;
+  border: 1px solid #33a2ff;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: #efefef;
+}
+
+.post__meta {
+  font-size: 1rem;
+  color: #707070;
+  margin: 0;
+}
+
+.post__title {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: #33a2ff;
+}
+
+.post__actions {
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .post {
+    padding: 1rem;
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
