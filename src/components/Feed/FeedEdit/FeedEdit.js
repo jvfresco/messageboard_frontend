@@ -152,11 +152,13 @@ const FeedEdit = props => {
               valid={postForm['title'].valid}
               touched={postForm['title'].touched}
               value={postForm['title'].value}
+              placeholder={"TITLE"}
+              
             />
             
             <Input
               id="content"
-              label="Content"
+              label={"Content"}
               control="textarea"
               rows="5"
               onChange={postInputChangeHandler}
@@ -164,6 +166,7 @@ const FeedEdit = props => {
               valid={postForm['content'].valid}
               touched={postForm['content'].touched}
               value={postForm['content'].value}
+              
             />
           </form>
         </Modal>

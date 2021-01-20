@@ -33,6 +33,7 @@ const input = props => (
         value={props.value}
         onChange={e => props.onChange(props.id, e.target.value)}
         onBlur={props.onBlur}
+        placeholder={props.placeholder}
       />
     )}
   </div>

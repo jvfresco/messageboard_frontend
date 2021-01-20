@@ -40,3 +40,7 @@ input:placeholder-shown + label{
   visibility: hidden;
   transform: translateY(-2rem);
 }
+
+.input label:first-child {
+  transform: translateY(0rem);
+}

@@ -1,5 +1,6 @@
 {
   "name": "messageboard",
+  "homepage": "https://jvfresco.github.io/messageboard_frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,5 +26,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
