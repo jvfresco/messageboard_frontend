@@ -1,6 +1,6 @@
 Try the live version of the site [here](https://jvfresco.github.io/messageboard_frontend)
 
-You create a new account(no mail validation required) or use one of the following demo accounts:
+You can create a new account(no mail validation required) or use the following demo account:
 
 email: test@test.com
 pass: 12345
